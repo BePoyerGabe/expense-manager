@@ -1,0 +1,7 @@
+<mat-card>
+    <mat-card-title>Deletar Produto</mat-card-title>
+    
+    <p>Você deseja apagar o produto <strong>{{ product.name }}</strong> da sua lista?</p>
+    <button (click)="delete()" mat-raised-button color="primary">Sim</button>
+    <button (click)="cancel()" mat-raised-button color="warn">Não</button>
+</mat-card>
